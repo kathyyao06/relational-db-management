@@ -1,0 +1,18 @@
+[package]
+name = "opiterator"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+common = { path ="../common"}
+txn_manager = { path = "../txn_manager"}
+memstore = { path = "../memstore"}
+heapstore = { path = "../heapstore"}
+sqlparser="= 0.9.0"
+log = "0.4.11"
+csv="1.1"
+env_logger = "0.7.1"
+serde = { version = "1.0.89", features = ["derive"] }
+serde_cbor = "0.11.1"
