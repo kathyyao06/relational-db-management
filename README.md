@@ -1,5 +1,5 @@
 # Relational Database Management System
 
-Created Parts of a relational database management system using rust. As this was part of an academic project, I've only included select parts of my code, such as the storage manager (heapfile, page) and query operators (aggregate, join)
+Storage manager that utilizes heap files to store, manipulate, and iterate through data, built using Rust. Implemented aggregate, group by, and join operators. 
 
 
